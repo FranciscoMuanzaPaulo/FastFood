@@ -167,3 +167,20 @@ footer{
 footer p{
     color: #666;
 }
+footer button{
+    background-color: #65B741;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    box-shadow:   rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+footer button a{
+    color: #fff;
+}
+footer button:hover{
+    transition: .6s ease-in-out;
+    background-color: var(--hover_btn_color);
+}
